@@ -2,21 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- Important to make website responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Website</title>
-
-    <!-- Link our CSS file -->
+    <title>Search Results - Spice Route Restaurant</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
     <!-- Navbar Section Starts Here -->
-    <section class="navbar">
+    <section class="navbar" id="navbar">
         <div class="container">
             <div class="logo">
-                <a href="#" title="Logo">
-                    <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
+                <a href="index.html" title="Logo">
+                    <img src="images/logo.png" alt="Spice Route Restaurant Logo" class="img-responsive">
                 </a>
             </div>
 
@@ -43,131 +41,127 @@
     <!-- Navbar Section Ends Here -->
 
     <!-- fOOD sEARCH Section Starts Here -->
-    <section class="food-search text-center">
-        <div class="container">
-            
-            <h2>Foods on Your Search <a href="#" class="text-white">"Momo"</a></h2>
+    <section class="food-search bg-parallax text-center" style="background-image: url('https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=1920&q=80');">
+        <div class="container food-search-inner">
+            <h2>Foods on Your Search <a href="#" class="text-white" style="text-decoration: underline;">"Samosa"</a></h2>
 
+            <form action="food-search.html" method="POST">
+                <input type="search" name="search" placeholder="Search for Food.." required>
+                <input type="submit" name="submit" value="Search" class="btn btn-primary">
+            </form>
         </div>
     </section>
     <!-- fOOD sEARCH Section Ends Here -->
 
-
-
-    <!-- fOOD MEnu Section Starts Here -->
+    <!-- fOOD Menu Section Starts Here -->
     <section class="food-menu">
         <div class="container">
-            <h2 class="text-center">Food Menu</h2>
+            <h2 class="text-center underline">Snacks & Starters</h2>
 
             <div class="food-menu-box">
                 <div class="food-menu-img">
-                    <img src="images/menu-pizza.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                    <img src="https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=600&q=80" alt="Samosa" class="img-responsive img-curve lazy" data-src="https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=600&q=80">
                 </div>
 
                 <div class="food-menu-desc">
-                    <h4>Food Title</h4>
-                    <p class="food-price">$2.3</p>
+                    <h4>Crispy Samosa (2 Pcs)</h4>
+                    <p class="food-price">₹59</p>
                     <p class="food-detail">
-                        Made with Italian Sauce, Chicken, and organice vegetables.
+                        Golden fried pastry filled with spiced potatoes and peas. Served with tamarind and mint chutneys.
                     </p>
+                    <div class="food-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> 4.8</div>
                     <br>
+                    <a href="order.html" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
 
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=600&q=80" alt="Chicken Tikka" class="img-responsive img-curve lazy" data-src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=600&q=80">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Chicken Tikka</h4>
+                    <p class="food-price">₹249</p>
+                    <p class="food-detail">
+                        Tender boneless chicken marinated in tandoori spices, grilled to perfection. Served with green chutney.
+                    </p>
+                    <div class="food-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 4.9</div>
+                    <br>
                     <a href="#" class="btn btn-primary">Order Now</a>
                 </div>
             </div>
 
             <div class="food-menu-box">
                 <div class="food-menu-img">
-                    <img src="images/menu-burger.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                    <img src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=600&q=80" alt="Pani Puri" class="img-responsive img-curve lazy" data-src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=600&q=80">
                 </div>
 
                 <div class="food-menu-desc">
-                    <h4>Smoky Burger</h4>
-                    <p class="food-price">$2.3</p>
+                    <h4>Pani Puri (6 Pcs)</h4>
+                    <p class="food-price">₹49</p>
                     <p class="food-detail">
-                        Made with Italian Sauce, Chicken, and organice vegetables.
+                        Crunchy puris filled with spiced potato, chickpeas, and tangy mint water. Street food at its best.
                     </p>
+                    <div class="food-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 4.9</div>
                     <br>
-
                     <a href="#" class="btn btn-primary">Order Now</a>
                 </div>
             </div>
 
             <div class="food-menu-box">
                 <div class="food-menu-img">
-                    <img src="images/menu-burger.jpg" alt="Chicke Hawain Burger" class="img-responsive img-curve">
+                    <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&q=80" alt="Pakora" class="img-responsive img-curve lazy" data-src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&q=80">
                 </div>
 
                 <div class="food-menu-desc">
-                    <h4>Nice Burger</h4>
-                    <p class="food-price">$2.3</p>
+                    <h4>Mixed Veg Pakora (8 Pcs)</h4>
+                    <p class="food-price">₹89</p>
                     <p class="food-detail">
-                        Made with Italian Sauce, Chicken, and organice vegetables.
+                        Crispy fritters made with onions, potatoes, spinach, and chickpeas gram flour batter.
                     </p>
+                    <div class="food-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> 4.7</div>
                     <br>
-
                     <a href="#" class="btn btn-primary">Order Now</a>
                 </div>
             </div>
 
             <div class="food-menu-box">
                 <div class="food-menu-img">
-                    <img src="images/menu-pizza.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                    <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=600&q=80" alt="Paneer Tikka" class="img-responsive img-curve lazy" data-src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=600&q=80">
                 </div>
 
                 <div class="food-menu-desc">
-                    <h4>Food Title</h4>
-                    <p class="food-price">$2.3</p>
+                    <h4>Paneer Tikka</h4>
+                    <p class="food-price">₹199</p>
                     <p class="food-detail">
-                        Made with Italian Sauce, Chicken, and organice vegetables.
+                        Grilled cottage cheese cubes marinated in yogurt and spices, served with mint chutney.
                     </p>
+                    <div class="food-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> 4.8</div>
                     <br>
-
                     <a href="#" class="btn btn-primary">Order Now</a>
                 </div>
             </div>
 
             <div class="food-menu-box">
                 <div class="food-menu-img">
-                    <img src="images/menu-pizza.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                    <img src="https://images.unsplash.com/photo-1567337710282-00832b415979?w=600&q=80" alt="Kachori" class="img-responsive img-curve lazy" data-src="https://images.unsplash.com/photo-1567337710282-00832b415979?w=600&q=80">
                 </div>
 
                 <div class="food-menu-desc">
-                    <h4>Food Title</h4>
-                    <p class="food-price">$2.3</p>
+                    <h4>Raj Kachori (2 Pcs)</h4>
+                    <p class="food-price">₹79</p>
                     <p class="food-detail">
-                        Made with Italian Sauce, Chicken, and organice vegetables.
+                        Large crispy kachoris filled with potatoes, sprouts, yogurt, tamarind, and chutneys.
                     </p>
+                    <div class="food-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 5.0</div>
                     <br>
-
                     <a href="#" class="btn btn-primary">Order Now</a>
                 </div>
             </div>
-
-            <div class="food-menu-box">
-                <div class="food-menu-img">
-                    <img src="images/menu-momo.jpg" alt="Chicke Hawain Momo" class="img-responsive img-curve">
-                </div>
-
-                <div class="food-menu-desc">
-                    <h4>Chicken Steam Momo</h4>
-                    <p class="food-price">$2.3</p>
-                    <p class="food-detail">
-                        Made with Italian Sauce, Chicken, and organice vegetables.
-                    </p>
-                    <br>
-
-                    <a href="#" class="btn btn-primary">Order Now</a>
-                </div>
-            </div>
-
 
             <div class="clearfix"></div>
-
-            
-
         </div>
-
     </section>
     <!-- fOOD Menu Section Ends Here -->
 
@@ -176,13 +170,13 @@
         <div class="container text-center">
             <ul>
                 <li>
-                    <a href="#"><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png"/></a>
+                    <a href="#"><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png" alt="Facebook"/></a>
                 </li>
                 <li>
-                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="Instagram"/></a>
                 </li>
                 <li>
-                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png" alt="Twitter"/></a>
                 </li>
             </ul>
         </div>
@@ -197,5 +191,41 @@
     </section>
     <!-- footer Section Ends Here -->
 
+    <script>
+        // Lazy loading images
+        document.addEventListener('DOMContentLoaded', function() {
+            const lazyImages = document.querySelectorAll('img.lazy');
+
+            if ('IntersectionObserver' in window) {
+                const imageObserver = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const img = entry.target;
+                            img.src = img.dataset.src;
+                            img.classList.add('loaded');
+                            observer.unobserve(img);
+                        }
+                    });
+                });
+
+                lazyImages.forEach(img => imageObserver.observe(img));
+            } else {
+                lazyImages.forEach(img => {
+                    img.src = img.dataset.src;
+                    img.classList.add('loaded');
+                });
+            }
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
 </body>
 </html>
