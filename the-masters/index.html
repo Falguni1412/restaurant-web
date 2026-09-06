@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Masters — Premium Indian Restaurant & Fine Dining</title>
+    <meta name="description" content="The Masters is a premium Indian restaurant offering authentic regional cuisine, signature dishes, and an unforgettable fine dining experience.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-logo">The Masters</div>
+        <div class="loader-text">Est. 1998 · Mumbai</div>
+        <div class="loader-bar"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="nav-logo">The Masters</a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#story">Our Story</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#experiences">Dining</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#reserve" class="nav-reserve">Reserve</a>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-tagline">— A Journey Through India —</p>
+                <h1 class="hero-title">
+                    Where Tradition
+                    <span class="accent">Meets Mastery</span>
+                </h1>
+                <p class="hero-description">
+                    A celebration of India's rich culinary heritage, crafted by master chefs
+                    using recipes passed down through generations, served in an atmosphere
+                    of timeless elegance.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn btn-primary">
+                        <i class="fas fa-utensils"></i> Explore Menu
+                    </a>
+                    <a href="#reserve" class="btn btn-outline">
+                        <i class="fas fa-calendar-check"></i> Reserve Table
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="hero-scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Info Bar -->
+    <section class="info-bar">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-item">
+                    <div class="info-icon"><i class="fas fa-clock"></i></div>
+                    <div class="info-label">Open Hours</div>
+                    <div class="info-value">12:00 PM – 11:30 PM</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="info-label">Location</div>
+                    <div class="info-value">Bandra Kurla, Mumbai</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon"><i class="fas fa-award"></i></div>
+                    <div class="info-label">Cuisine</div>
+                    <div class="info-value">Authentic Indian · Fine Dining</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon"><i class="fas fa-star"></i></div>
+                    <div class="info-label">Ratings</div>
+                    <div class="info-value">4.9 ★ (2,400+ Reviews)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="section section-light" id="story">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-image reveal">
+                    <div class="story-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=900&q=85" alt="Master Chef preparing food">
+                    </div>
+                </div>
+                <div class="story-content reveal">
+                    <span class="section-tag">Our Story</span>
+                    <h2>A Legacy of Culinary Excellence</h2>
+                    <p>
+                        Born from a passion that spans three generations, The Masters is more than
+                        a restaurant — it is a tribute to the timeless traditions of Indian cuisine.
+                        Our founder, Chef Arjun Mehta, began his journey in the royal kitchens of
+                        Rajasthan, learning the secrets of spice from his grandmother.
+                    </p>
+                    <p>
+                        Today, The Masters stands as a beacon of authentic Indian fine dining,
+                        where every dish tells a story of heritage, every spice is hand-ground,
+                        and every meal becomes a cherished memory.
+                    </p>
+                    <div class="story-stats">
+                        <div class="stat">
+                            <div class="stat-number">25+</div>
+                            <div class="stat-label">Years of Excellence</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">200+</div>
+                            <div class="stat-label">Signature Recipes</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">15</div>
+                            <div class="stat-label">Master Chefs</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signature Dishes -->
+    <section class="section section-dark section-texture" id="signature">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Signature Dishes</span>
+                <h2 class="section-title">The Masterpieces</h2>
+                <p class="section-subtitle">
+                    Handcrafted with passion, perfected through generations — these are the dishes
+                    that define The Masters experience.
+                </p>
+            </div>
+            <div class="dishes-grid">
+                <div class="dish-card reveal-stagger">
+                    <div class="dish-image">
+                        <span class="dish-badge veg">Signature</span>
+                        <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=85" alt="Royal Butter Chicken">
+                    </div>
+                    <div class="dish-content">
+                        <h3 class="dish-name">Royal Butter Chicken</h3>
+                        <p class="dish-origin">Punjab · North India</p>
+                        <p class="dish-description">
+                            Tandoor-roasted chicken simmered in velvety tomato-cream sauce,
+                            kissed with kasuri methi and finished with white butter.
+                        </p>
+                        <div class="dish-footer">
+                            <div class="dish-price">₹795</div>
+                            <div class="dish-spice">
+                                <span class="spice-dot"></span>
+                                <span class="spice-dot active"></span>
+                                <span class="spice-dot"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dish-card reveal-stagger">
+                    <div class="dish-image">
+                        <span class="dish-badge">Chef's Special</span>
+                        <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600&q=85" alt="Hyderabadi Biryani">
+                    </div>
+                    <div class="dish-content">
+                        <h3 class="dish-name">Hyderabadi Dum Biryani</h3>
+                        <p class="dish-origin">Hyderabad · South India</p>
+                        <p class="dish-description">
+                            Aged basmati rice layered with succulent lamb, saffron-infused milk,
+                            and 16 aromatic spices, slow-cooked in sealed earthen pots.
+                        </p>
+                        <div class="dish-footer">
+                            <div class="dish-price">₹895</div>
+                            <div class="dish-spice">
+                                <span class="spice-dot active"></span>
+                                <span class="spice-dot active"></span>
+                                <span class="spice-dot"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dish-card reveal-stagger">
+                    <div class="dish-image">
+                        <span class="dish-badge veg">Vegetarian</span>
+                        <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600&q=85" alt="Dal Makhani">
+                    </div>
+                    <div class="dish-content">
+                        <h3 class="dish-name">Slow-Cooked Dal Makhani</h3>
+                        <p class="dish-origin">Punjab · North India</p>
+                        <p class="dish-description">
+                            Black lentils and kidney beans simmered overnight over charcoal,
+                            finished with cream, butter, and freshly pounded spices.
+                        </p>
+                        <div class="dish-footer">
+                            <div class="dish-price">₹495</div>
+                            <div class="dish-spice">
+                                <span class="spice-dot"></span>
+                                <span class="spice-dot"></span>
+                                <span class="spice-dot"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Menu -->
+    <section class="section section-light" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Menu</span>
+                <h2 class="section-title">A Curated Selection</h2>
+                <p class="section-subtitle">
+                    Explore our complete menu, thoughtfully designed to offer the finest
+                    of Indian cuisine from every region.
+                </p>
+            </div>
+
+            <div class="menu-container">
+                <aside class="menu-sidebar">
+                    <h3>Categories</h3>
+                    <div class="menu-categories">
+                        <div class="menu-category active" data-category="all">All</div>
+                        <div class="menu-category" data-category="starters">Starters</div>
+                        <div class="menu-category" data-category="tandoor">Tandoor</div>
+                        <div class="menu-category" data-category="mains">Main Course</div>
+                        <div class="menu-category" data-category="biryani">Biryani</div>
+                        <div class="menu-category" data-category="breads">Breads</div>
+                        <div class="menu-category" data-category="desserts">Desserts</div>
+                        <div class="menu-category" data-category="drinks">Drinks</div>
+                    </div>
+
+                    <div class="filter-group">
+                        <div class="filter-label">Dietary</div>
+                        <div class="filter-options">
+                            <button class="filter-btn" data-filter="veg">Veg</button>
+                            <button class="filter-btn" data-filter="vegan">Vegan</button>
+                            <button class="filter-btn" data-filter="jain">Jain</button>
+                            <button class="filter-btn" data-filter="nonveg">Non-Veg</button>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <div class="filter-label">Spice Level</div>
+                        <div class="filter-options">
+                            <button class="filter-btn" data-spice="1">Mild</button>
+                            <button class="filter-btn" data-spice="2">Medium</button>
+                            <button class="filter-btn" data-spice="3">Hot</button>
+                        </div>
+                    </div>
+                </aside>
+
+                <div class="menu-content" id="menuContent">
+                    <!-- Menu items will be rendered by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Through India -->
+    <section class="section section-dark section-texture" id="journey">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">A Culinary Voyage</span>
+                <h2 class="section-title">Journey Through India</h2>
+                <p class="section-subtitle">
+                    From the snow-clad Himalayas to the coastal shores of Kerala,
+                    experience the diverse flavors of India's regional cuisines.
+                </p>
+            </div>
+            <div class="regions-grid">
+                <div class="region-card reveal-stagger">
+                    <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&q=85" alt="North India">
+                    <div class="region-info">
+                        <h3 class="region-name">North India</h3>
+                        <p class="region-dish">Punjabi · Mughlai · Kashmiri</p>
+                    </div>
+                </div>
+                <div class="region-card reveal-stagger">
+                    <img src="https://images.unsplash.com/photo-1567337710282-00832b415979?w=600&q=85" alt="South India">
+                    <div class="region-info">
+                        <h3 class="region-name">South India</h3>
+                        <p class="region-dish">Chettinad · Hyderabadi · Kerala</p>
+                    </div>
+                </div>
+                <div class="region-card reveal-stagger">
+                    <img src="https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=600&q=85" alt="West India">
+                    <div class="region-info">
+                        <h3 class="region-name">West India</h3>
+                        <p class="region-dish">Gujarati · Maharashtrian · Rajasthani</p>
+                    </div>
+                </div>
+                <div class="region-card reveal-stagger">
+                    <img src="https://images.unsplash.com/photo-1596797038530-2c107229654b?w=600&q=85" alt="East India">
+                    <div class="region-info">
+                        <h3 class="region-name">East India</h3>
+                        <p class="region-dish">Bengali · Odia · Assamese</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chef Profile -->
+    <section class="section section-light chef-section" id="chef">
+        <div class="container">
+            <div class="chef-grid">
+                <div class="chef-image reveal">
+                    <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=900&q=85" alt="Chef Arjun Mehta">
+                    <div class="chef-quote">
+                        Cooking is not about recipes — it's about stories, traditions,
+                        and the love you put into every dish.
+                    </div>
+                </div>
+                <div class="chef-content reveal">
+                    <span class="section-tag">Master Chef</span>
+                    <h2>Chef Arjun Mehta</h2>
+                    <p class="chef-title">Founder & Executive Chef</p>
+                    <p>
+                        With over 25 years of culinary mastery, Chef Arjun has trained under
+                        legendary chefs across India, France, and Japan. His philosophy combines
+                        ancient techniques with modern presentation, creating dishes that are
+                        both authentic and innovative.
+                    </p>
+                    <p>
+                        A recipient of the prestigious "Chef of the Year" award by the Indian
+                        Culinary Foundation, Chef Arjun continues to push boundaries while
+                        honoring the timeless traditions of Indian cuisine.
+                    </p>
+                    <div class="chef-credentials">
+                        <div class="credential">
+                            <div class="credential-icon"><i class="fas fa-trophy"></i></div>
+                            <div class="credential-text">Award Winning</div>
+                        </div>
+                        <div class="credential">
+                            <div class="credential-icon"><i class="fas fa-medal"></i></div>
+                            <div class="credential-text">Michelin Trained</div>
+                        </div>
+                        <div class="credential">
+                            <div class="credential-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="credential-text">CIA Alumni</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dining Experiences -->
+    <section class="section section-dark" id="experiences">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Dining Experiences</span>
+                <h2 class="section-title">Curated For Every Occasion</h2>
+                <p class="section-subtitle">
+                    From intimate dinners to grand celebrations, find the perfect setting
+                    for your memorable moments.
+                </p>
+            </div>
+            <div class="experiences-grid">
+                <div class="experience-card reveal-stagger">
+                    <div class="experience-icon"><i class="fas fa-gem"></i></div>
+                    <h3 class="experience-title">Fine Dining</h3>
+                    <p class="experience-desc">Exquisite multi-course meals in our elegant main hall</p>
+                </div>
+                <div class="experience-card reveal-stagger">
+                    <div class="experience-icon"><i class="fas fa-users"></i></div>
+                    <h3 class="experience-title">Family</h3>
+                    <p class="experience-desc">Warm gatherings with menus for all ages</p>
+                </div>
+                <div class="experience-card reveal-stagger">
+                    <div class="experience-icon"><i class="fas fa-heart"></i></div>
+                    <h3 class="experience-title">Romantic</h3>
+                    <p class="experience-desc">Intimate settings for unforgettable moments</p>
+                </div>
+                <div class="experience-card reveal-stagger">
+                    <div class="experience-icon"><i class="fas fa-briefcase"></i></div>
+                    <h3 class="experience-title">Corporate</h3>
+                    <p class="experience-desc">Professional venues for business excellence</p>
+                </div>
+                <div class="experience-card reveal-stagger">
+                    <div class="experience-icon"><i class="fas fa-glass-cheers"></i></div>
+                    <h3 class="experience-title">Private Events</h3>
+                    <p class="experience-desc">Exclusive celebrations crafted to perfection</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section section-light" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Visual Feast</span>
+                <h2 class="section-title">A Glimpse Inside</h2>
+                <p class="section-subtitle">
+                    Immerse yourself in the ambiance, artistry, and elegance that await you.
+                </p>
+            </div>
+            <div class="gallery-masonry" id="galleryGrid">
+                <div class="gallery-item gallery-item-large" data-src="https://images.unsplash.com/photo-1565291277745-08913f2c2a8a?w=1200&q=85">
+                    <img src="https://images.unsplash.com/photo-1565291277745-08913f2c2a8a?w=1200&q=85" alt="Dish">
+                </div>
+                <div class="gallery-item" data-src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=85">
+                    <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=85" alt="Dish">
+                </div>
+                <div class="gallery-item" data-src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=85">
+                    <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=85" alt="Dish">
+                </div>
+                <div class="gallery-item gallery-item-tall" data-src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=85">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=85" alt="Restaurant">
+                </div>
+                <div class="gallery-item" data-src="https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=85">
+                    <img src="https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=85" alt="Dish">
+                </div>
+                <div class="gallery-item gallery-item-wide" data-src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85" alt="Interior">
+                </div>
+                <div class="gallery-item" data-src="https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=85">
+                    <img src="https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=800&q=85" alt="Dish">
+                </div>
+                <div class="gallery-item" data-src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800&q=85">
+                    <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800&q=85" alt="Dish">
+                </div>
+                <div class="gallery-item" data-src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800&q=85">
+                    <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800&q=85" alt="Dish">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section class="section section-dark section-texture" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Guest Stories</span>
+                <h2 class="section-title">Voices of Distinction</h2>
+            </div>
+
+            <div class="review-rating reveal">
+                <div class="rating-number">4.9</div>
+                <div class="rating-stars">★ ★ ★ ★ ★</div>
+                <div class="rating-meta">Based on 2,400+ reviews</div>
+            </div>
+
+            <div class="reviews-grid">
+                <div class="review-card reveal-stagger">
+                    <div class="review-quote">"</div>
+                    <p class="review-text">
+                        An absolute masterpiece. The butter chicken transported me back
+                        to my grandmother's kitchen in Amritsar. Truly a world-class
+                        experience.
+                    </p>
+                    <div class="review-stars">★ ★ ★ ★ ★</div>
+                    <div class="review-author">
+                        <div class="review-avatar">
+                            <img src="https://i.pravatar.cc/100?img=1" alt="Priya Sharma">
+                        </div>
+                        <div>
+                            <div class="review-name">Priya Sharma</div>
+                            <div class="review-meta">Food Critic, Mumbai</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card reveal-stagger">
+                    <div class="review-quote">"</div>
+                    <p class="review-text">
+                        The Masters redefines Indian fine dining. The attention to detail,
+                        the warm hospitality, and the sublime flavors make every visit
+                        unforgettable.
+                    </p>
+                    <div class="review-stars">★ ★ ★ ★ ★</div>
+                    <div class="review-author">
+                        <div class="review-avatar">
+                            <img src="https://i.pravatar.cc/100?img=2" alt="Rajesh Khanna">
+                        </div>
+                        <div>
+                            <div class="review-name">Rajesh Khanna</div>
+                            <div class="review-meta">Celebrity Chef</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card reveal-stagger">
+                    <div class="review-quote">"</div>
+                    <p class="review-text">
+                        We celebrated our anniversary here and it was magical. The private
+                        dining, the personalized menu, and the warmth of the staff made
+                        it truly special.
+                    </p>
+                    <div class="review-stars">★ ★ ★ ★ ★</div>
+                    <div class="review-author">
+                        <div class="review-avatar">
+                            <img src="https://i.pravatar.cc/100?img=3" alt="Ananya Iyer">
+                        </div>
+                        <div>
+                            <div class="review-name">Ananya Iyer</div>
+                            <div class="review-meta">Verified Guest</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers -->
+    <section class="section section-light" id="offers">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Special Offers</span>
+                <h2 class="section-title">Exclusive Experiences</h2>
+                <p class="section-subtitle">
+                    Curated offerings and upcoming events designed for the discerning palate.
+                </p>
+            </div>
+            <div class="offers-grid">
+                <div class="offer-card reveal-stagger">
+                    <div class="offer-icon"><i class="fas fa-utensils"></i></div>
+                    <h3 class="offer-title">Tasting Menu Tuesdays</h3>
+                    <p class="offer-desc">
+                        Experience our 7-course chef's tasting menu at a special price,
+                        featuring seasonal ingredients and rare regional specialties.
+                    </p>
+                    <div class="offer-validity">Every Tuesday · ₹2,500 per person</div>
+                </div>
+
+                <div class="offer-card reveal-stagger">
+                    <div class="offer-icon"><i class="fas fa-wine-glass-alt"></i></div>
+                    <h3 class="offer-title">Wine & Dine Wednesdays</h3>
+                    <p class="offer-desc">
+                        Curated wine pairings with our chef's special 5-course menu.
+                        Discover perfect combinations handpicked by our sommelier.
+                    </p>
+                    <div class="offer-validity">Every Wednesday · ₹3,500 per person</div>
+                </div>
+
+                <div class="offer-card reveal-stagger">
+                    <div class="offer-icon"><i class="fas fa-calendar-star"></i></div>
+                    <h3 class="offer-title">Diwali Festival Menu</h3>
+                    <p class="offer-desc">
+                        Celebrate the festival of lights with our specially crafted
+                        festive menu featuring traditional sweets and delicacies.
+                    </p>
+                    <div class="offer-validity">November 1-15 · Limited Seating</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation -->
+    <section class="section reservation" id="reserve">
+        <div class="container">
+            <div class="reservation-grid">
+                <div class="reservation-info reveal">
+                    <span class="section-tag">Reservations</span>
+                    <h2>Secure Your Table</h2>
+                    <p>
+                        Join us for an unforgettable dining experience. We recommend
+                        booking in advance, especially for weekend evenings and
+                        special occasions.
+                    </p>
+                    <div class="reservation-features">
+                        <div class="reservation-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Complimentary valet parking</span>
+                        </div>
+                        <div class="reservation-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Personalized menu for dietary needs</span>
+                        </div>
+                        <div class="reservation-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Complimentary welcome drink</span>
+                        </div>
+                        <div class="reservation-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Free cancellation up to 4 hours prior</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="reservation-form reveal" id="reservationForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" placeholder="+91 98765 43210" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="your@email.com" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="guests">Guests</label>
+                            <select id="guests" required>
+                                <option value="">Select</option>
+                                <option>1 Person</option>
+                                <option>2 People</option>
+                                <option>3 People</option>
+                                <option>4 People</option>
+                                <option>5-6 People</option>
+                                <option>7+ People (Private)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Date</label>
+                            <input type="date" id="date" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="time">Time</label>
+                            <select id="time" required>
+                                <option value="">Select</option>
+                                <option>12:00 PM</option>
+                                <option>1:00 PM</option>
+                                <option>2:00 PM</option>
+                                <option>7:00 PM</option>
+                                <option>8:00 PM</option>
+                                <option>9:00 PM</option>
+                                <option>10:00 PM</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="occasion">Occasion</label>
+                            <select id="occasion">
+                                <option value="">Select (Optional)</option>
+                                <option>Birthday</option>
+                                <option>Anniversary</option>
+                                <option>Date Night</option>
+                                <option>Business Dinner</option>
+                                <option>Celebration</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="requests">Special Requests</label>
+                        <textarea id="requests" rows="3" placeholder="Any dietary requirements or special arrangements?"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+                        <i class="fas fa-calendar-check"></i> Confirm Reservation
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Private Events -->
+    <section class="section section-dark events-section" id="events">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Private Events & Catering</span>
+                <h2 class="section-title">Crafted Celebrations</h2>
+            </div>
+            <div class="events-banner reveal">
+                <h2>Host Your Moments With Us</h2>
+                <p>
+                    From intimate gatherings to grand celebrations, our private event spaces
+                    and bespoke catering services bring the magic of The Masters to your
+                    special occasions. Our team handles every detail, so you can focus on
+                    creating memories.
+                </p>
+                <a href="#contact" class="btn btn-primary">
+                    <i class="fas fa-envelope"></i> Inquire Now
+                </a>
+            </div>
+            <div class="events-grid">
+                <div class="event-type">
+                    <div class="event-type-icon"><i class="fas fa-ring"></i></div>
+                    <h4>Weddings</h4>
+                    <p>Celebrate your love story with elegant venues and customized menus.</p>
+                </div>
+                <div class="event-type">
+                    <div class="event-type-icon"><i class="fas fa-briefcase"></i></div>
+                    <h4>Corporate Events</h4>
+                    <p>Professional gatherings with seamless service and sophisticated ambiance.</p>
+                </div>
+                <div class="event-type">
+                    <div class="event-type-icon"><i class="fas fa-birthday-cake"></i></div>
+                    <h4>Birthday Parties</h4>
+                    <p>Memorable celebrations with personalized touches and surprise elements.</p>
+                </div>
+                <div class="event-type">
+                    <div class="event-type-icon"><i class="fas fa-truck"></i></div>
+                    <h4>Outdoor Catering</h4>
+                    <p>Premium catering services for your location with full-service setup.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-light" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get in Touch</span>
+                <h2 class="section-title">Visit Us</h2>
+                <p class="section-subtitle">
+                    We'd love to hear from you. Reach out for reservations,
+                    inquiries, or just to say hello.
+                </p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-text">
+                            <h4>Address</h4>
+                            <p>123, Bandra Kurla Complex<br>Mumbai, Maharashtra 400051<br>India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div class="contact-text">
+                            <h4>Phone</h4>
+                            <p>+91 98765 43210<br>+91 22 4567 8900</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>reservations@themasters.in<br>events@themasters.in</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                        <div class="contact-text">
+                            <h4>Hours</h4>
+                            <p>Mon - Fri: 12:00 PM - 11:30 PM<br>Sat - Sun: 11:00 AM - 12:00 AM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map reveal">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.7553876699344!2d72.86014341490078!3d19.05998798709698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8866a456c9f%3A0x8d1745d15baac575!2sBandra%20Kurla%20Complex%2C%20Mumbai!5e0!3m2!1sen!2sin!4v1631234567890" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Come Hungry.<br>Leave With A Story.</h2>
+            <p>Every dish at The Masters is more than food — it's a memory in the making.</p>
+            <div class="final-cta-buttons">
+                <a href="#reserve" class="btn btn-primary">
+                    <i class="fas fa-calendar-check"></i> Reserve Your Table
+                </a>
+                <a href="#menu" class="btn btn-outline">
+                    <i class="fas fa-utensils"></i> Explore Our Menu
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>The Masters</h3>
+                    <p>
+                        A celebration of India's rich culinary heritage, where tradition
+                        meets mastery. Experience the finest Indian fine dining in an
+                        atmosphere of timeless elegance.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="#story">Our Story</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#chef">Chef</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#reserve">Reservations</a></li>
+                        <li><a href="#events">Private Events</a></li>
+                        <li><a href="#events">Catering</a></li>
+                        <li><a href="#experiences">Dining</a></li>
+                        <li><a href="#offers">Special Offers</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="#contact">Location</a></li>
+                        <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+                        <li><a href="mailto:reservations@themasters.in">Email Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2024 The Masters. All rights reserved. Designed with care.</p>
+                <div class="footer-policies">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close" id="lightboxClose">&times;</span>
+            <img id="lightboxImg" src="" alt="Gallery image">
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
